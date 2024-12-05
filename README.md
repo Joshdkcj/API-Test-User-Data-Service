@@ -14,6 +14,11 @@ This is an API testing project based on JSONPlaceholder, covering the following 
 - `User_Data_API_Tests.json`: Postman collection file.
 - `newman/`: Newman test report.
 
+## Test report file
+The project contains two formats of test reports:
+- HTML format: `newman/report.html`, suitable for viewing in a browser.
+- JSON format: `newman/report.json`, suitable for data processing or further integration.
+
 ## Run steps
 1. Use Postman to import the collection file.
 2. Run the following command to execute the test:
